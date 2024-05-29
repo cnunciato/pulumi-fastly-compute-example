@@ -1,0 +1,8 @@
+name: pulumi-fastly-compute-example
+runtime: nodejs
+description: An example of using Pulumi with TypeScript to provision a Fastly Compute service.
+template:
+  config:
+    fastly:apiKey:
+      description: Your Fastly API token. This will be stored as an encrypted Pulumi secret in ciphertext.
+      secret: true

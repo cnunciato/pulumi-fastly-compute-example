@@ -1,0 +1,15 @@
+{
+    "name": "aws-typescript-f6239ff",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.0.0",
+        "@pulumi/awsx": "^2.0.2",
+        "@pulumi/fastly": "^8.8.0",
+        "@pulumi/pulumi": "^3.113.0",
+        "@pulumi/random": "^4.16.2"
+    }
+}
