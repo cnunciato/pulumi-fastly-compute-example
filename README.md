@@ -72,7 +72,7 @@ pulumi new https://github.com/cnunciato/pulumi-fastly-compute-example
 
 [![Deploy with Pulumi](https://get.pulumi.com/new/button.svg)](https://app.pulumi.com/new?template=https://github.com/cnunciato/pulumi-fastly-compute-example)
 
-For the latter, you'll need to install the Fastly CLI. (The initial deployment will fail on the absence of the `fastly` CLI command.) To do so, add the following line to your pre-run commands at Settings > Deploy in Pulumi Cloud:
+For the latter, you'll need to install the Fastly CLI. (The initial deployment will fail on the absence of the `fastly` CLI command.) To do so, add the following line to your Pre-Run Commands (at Settings > Deploy in Pulumi Cloud), passing the version of the CLI that you want to install:
 
 ```bash
 ./install-fastly-cli.sh v10.10.0
