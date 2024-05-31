@@ -78,7 +78,7 @@ For the latter, you'll need to install the Fastly CLI. (The initial deployment w
 ./install-fastly-cli.sh v10.10.0
 ```
 
-Once configured, any pushes to your GitHub repository will trigger a rebuild deployment of the Fastly app.
+Once configured, any pushes to your GitHub repository will trigger a rebuild and deployment of your app.
 
 ## Learn more
 
